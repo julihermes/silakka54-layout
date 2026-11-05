@@ -86,7 +86,7 @@ Shift ;    Q    J    K    X          B    M    W    V    Z    \
                Alt Super Espaço    Enter Bksp Delete
 ```
 
-Teclas com toque/segurar (Tap Dance, 160 ms):
+Teclas com toque/segurar (Tap Dance, 175 ms):
 
 | Tecla | Toque | Segurar | Toque duplo |
 |---|---|---|---|
@@ -143,9 +143,9 @@ Usa os números da fileira de cima (não os do teclado numérico), então não d
 
 ## Cuidados com o tempo (Tap Dance)
 
-O Tap Dance do Vial decide entre toque e segurar pelo tempo (160 ms). Se outra tecla for apertada antes disso, ele **sempre** entende como toque. Na prática:
+O Tap Dance do Vial decide entre toque e segurar pelo tempo (175 ms). Se outra tecla for apertada antes disso, ele **sempre** entende como toque. Na prática:
 
-- **Alt segurado:** para atalhos como Alt+Tab, segure o Alt ~160 ms antes da outra tecla. Se for rápido demais, entra na camada de acentos e a tecla sai sem Alt.
-- **Toque duplo** (Alt para maiúsculas, `\` para números): depois do segundo toque, espere ~160 ms antes da próxima tecla.
+- **Alt segurado:** para atalhos como Alt+Tab, segure o Alt ~175 ms antes da outra tecla. Se for rápido demais, entra na camada de acentos e a tecla sai sem Alt.
+- **Toque duplo** (Alt para maiúsculas, `\` para números): depois do segundo toque, espere ~175 ms antes da próxima tecla.
 - **`\`** sai com um pequeno atraso. Para digitar `\\`, dê os dois toques com uma pausa entre eles.
 - **Delete** não repete ao segurar (segurar é o mouse). Para repetir, toque e logo em seguida segure.
