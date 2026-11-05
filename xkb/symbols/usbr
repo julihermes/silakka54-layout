@@ -1,0 +1,21 @@
+// US padrão + acentos do português em teclas sem uso (JIS/Korean/ISO).
+// No Vial (Silakka54), mapeie: á LANG1, é LANG2, í LANG3, ó LANG4, ú NUBS,
+// ç KP_COMMA, ã INT1, â INT2, õ INT3, ê INT4, ô INT5, à INT6. Shift = maiúscula.
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "us(basic)"
+    name[Group1] = "English (US) + PT accents";
+
+    key <HNGL> { type[Group1]="TWO_LEVEL", [ aacute,      Aacute      ] };  // KC_LANG1
+    key <HJCV> { type[Group1]="TWO_LEVEL", [ eacute,      Eacute      ] };  // KC_LANG2
+    key <KATA> { type[Group1]="TWO_LEVEL", [ iacute,      Iacute      ] };  // KC_LANG3
+    key <HIRA> { type[Group1]="TWO_LEVEL", [ oacute,      Oacute      ] };  // KC_LANG4
+    key <LSGT> { type[Group1]="TWO_LEVEL", [ uacute,      Uacute      ] };  // KC_NUBS
+    key <I129> { type[Group1]="TWO_LEVEL", [ ccedilla,    Ccedilla    ] };  // KC_KP_COMMA
+    key <AB11> { type[Group1]="TWO_LEVEL", [ atilde,      Atilde      ] };  // KC_INT1
+    key <HKTG> { type[Group1]="TWO_LEVEL", [ acircumflex, Acircumflex ] };  // KC_INT2
+    key <AE13> { type[Group1]="TWO_LEVEL", [ otilde,      Otilde      ] };  // KC_INT3
+    key <HENK> { type[Group1]="TWO_LEVEL", [ ecircumflex, Ecircumflex ] };  // KC_INT4
+    key <MUHE> { type[Group1]="TWO_LEVEL", [ ocircumflex, Ocircumflex ] };  // KC_INT5
+    key <JPCM> { type[Group1]="TWO_LEVEL", [ agrave,      Agrave      ] };  // KC_INT6
+};
